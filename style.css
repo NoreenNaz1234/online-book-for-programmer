@@ -1,0 +1,44 @@
+.fixed{
+	width: 120px;
+	height: 80px;
+}
+
+#my-nav{
+	background-color: #79554870 !important;
+}
+
+.main{
+	color: #171212c7;
+	display: flex;
+	border: solid  #79554870 4px;
+	margin: 5em;
+	padding: 10px;
+	flex-direction: column;
+	flex-wrap: wrap;
+	border-style: groove;
+	border-width: 7px;
+}
+
+.border-set{
+	border-bottom: 4px solid #79554870;
+	border-style: dashed;
+	margin: 16px;
+}
+
+.author,.title{
+	font-family: 'Arvo', serif;
+}
+
+.description{
+	font-family: 'Playfair Display', serif;
+}
+
+.publisher, .publised-at{
+	font-family: 'Satisfy', cursive;
+}
+
+.add-style{
+	color: #795548c7;
+	font-family: 'Lemon', cursive;
+	font-size: 35px;
+}
